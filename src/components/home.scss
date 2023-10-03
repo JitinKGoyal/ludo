@@ -1,0 +1,42 @@
+:root {
+    --width: 200px;
+}
+
+.home_prt {
+    width: var(--width);
+    height: var(--width);
+
+    .sec_box {
+        padding: 13%;
+    }
+    .dot {
+        height: 45%;
+        width: 45%;
+        border-radius: 50%;
+        // background: purple;
+    }
+}
+
+.pawn_box {
+    height: calc(var(--width) / 6);
+    width: calc(var(--width) / 6);
+    box-shadow: 1px 1px 4px -2px black;
+    border-radius: 3px;
+    // border: 1px solid gray;
+}
+
+.finish_box {
+    height: calc(var(--width) / 2);
+    width: calc(var(--width) / 2);
+    background-image: conic-gradient(
+        from 135deg,
+        #00f0b5 0deg 90deg,
+        #f61067 90deg 180deg,
+        #3891a6 180deg 270deg,
+        #7e2e84 270deg 360deg
+    );
+}
+
+.active_box {
+    background: rgb(128, 128, 255);
+}
