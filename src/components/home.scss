@@ -1,5 +1,5 @@
 :root {
-    --width: 200px;
+    --width: 260px;
 }
 
 .home_prt {
@@ -39,4 +39,22 @@
 
 .active_box {
     background: rgb(128, 128, 255);
+}
+
+.pawnNo {
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+    left: 5px;
+}
+
+.pawn {
+    position: relative;
+}
+
+.safe_pawn_bg {
+    background: url(../images/round.png);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
 }

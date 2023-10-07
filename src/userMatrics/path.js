@@ -14,4 +14,7 @@ export const pathMatrics = {
 
 }
 
+
+
+export const safePositions = [0, 8, 13, 21, 26, 34, 39, 47]
 // 0 - 51
